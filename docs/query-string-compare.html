@@ -78,6 +78,10 @@
             padding: 10px;
             border: 1px solid #ddd;
             text-align: left;
+            max-width: 200px;
+            word-break: break-all;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         th {
             background-color: #eee;
@@ -200,8 +204,8 @@
             <thead>
                 <tr>
                     <th>매개변수</th>
-                    <th style="max-width: 200px">Query String 1</th>
-                    <th style="max-width: 200px">Query String 2</th>
+                    <th>Query String 1</th>
+                    <th>Query String 2</th>
                     <th>비교 결과</th>
                 </tr>
             </thead>
@@ -454,4 +458,3 @@
     </script>
 </body>
 </html>
-
